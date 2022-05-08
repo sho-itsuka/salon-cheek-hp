@@ -8,6 +8,4 @@
 HTML/CSSの練習として、あるいは自身の娯楽として、作成し始めました。  
 JavaScriptの学習が進んだら、追加でさまざまな機能を実装していきたいと考えています。
 
-## リンク
-[Salon Cheek HP](Users/sho-itsuka/projects/HP/index.html)
 ※まだまだ作成途中ですがご容赦ください
