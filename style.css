@@ -2,8 +2,20 @@ a {
   text-decoration: none;
 }
 
-li {
+.header-right li {
+  color: aliceblue;
   list-style: none;
+  background:rgb(71, 249, 255);
+  box-shadow:0 3px 0 rgb(24, 208, 214);
+  border-radius:20px;
+  transition: .5s; 
+  border: 2px solid #00ffff; 
+}
+
+.header-right li:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #00ffff;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
 }
 
 .container {
@@ -21,7 +33,24 @@ li {
   line-height: 90px;
   font-weight: bold;
   letter-spacing: 5px;
-}
+  animation-name: fadeInAnime;
+  animation-fill-mode:backwards;
+  animation-duration:3s;
+  animation-timing-function:ease;
+  animation-delay: 0.5s;
+  animation-direction:normal;
+  }
+
+  @keyframes fadeInAnime{
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+
 
 .header-right {
   list-style: none;
@@ -65,8 +94,21 @@ li {
 }
 
 .menu-1 h1 {
-  text-align: center;
-  padding-top: 30px;
+  position: relative;
+  padding: 0.5em;
+  background: aqua;
+  color: white;
+  width: 370px;
+}
+
+h1::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px rgb(149, 158, 155);
 }
 
 .menu-1 ul {
@@ -79,8 +121,11 @@ li {
 }
 
 .menu-2 h1 {
-  text-align: center;
-  padding-top: 30px;
+  position: relative;
+  padding: 0.5em;
+  background: aqua;
+  color: white;
+  width: 550px;
 }
 
 .menu-2 p {
@@ -88,8 +133,11 @@ li {
 }
 
 .menu-3 h1 {
-  text-align: center;
-  padding-top: 30px;
+  position: relative;
+  padding: 0.5em;
+  background: aqua;
+  color: white;
+  width: 590px;
 }
 
 .menu-3 p {
