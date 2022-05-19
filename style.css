@@ -13,9 +13,9 @@ a {
 }
 
 .header-right li:hover {
-  box-shadow    : none;        /* カーソル時の影消去 */
-  color         : #00ffff;     /* 背景色     */
-  background    : #ffffff;     /* 文字色     */
+  box-shadow    : none;
+  color         : #00ffff;
+  background    : #ffffff;
 }
 
 .container {
@@ -114,6 +114,7 @@ h1::before {
 .menu-1 ul {
   display: flex;
   justify-content: space-around;
+  list-style: none;
 }
 
 .menu-1 p {
