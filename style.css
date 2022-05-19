@@ -99,6 +99,7 @@ a {
   background: aqua;
   color: white;
   width: 370px;
+  margin-top: 200px;
 }
 
 h1::before {
@@ -127,6 +128,13 @@ h1::before {
   background: aqua;
   color: white;
   width: 550px;
+  margin-top: 100px;
+}
+
+.menu-2 ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .menu-2 p {
@@ -139,8 +147,16 @@ h1::before {
   background: aqua;
   color: white;
   width: 590px;
+  margin-top: 100px;
+}
+
+.menu-3 ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
 .menu-3 p {
   text-align: center;
+  margin-bottom: 200px;
 }
