@@ -3,6 +3,7 @@ a {
 }
 
 .header-right li {
+  font-weight: bold;
   color: aliceblue;
   list-style: none;
   background:rgb(71, 249, 255);
@@ -26,6 +27,7 @@ a {
 }
 
 .header-left {
+  font-weight: bold;
   padding-left: 20px;
   float: left;
   height: 100px;
@@ -94,6 +96,7 @@ a {
 }
 
 .menu-1 h1 {
+  font-weight: bold;
   position: relative;
   padding: 0.5em;
   background: aqua;
@@ -123,6 +126,7 @@ h1::before {
 }
 
 .menu-2 h1 {
+  font-weight: bold;
   position: relative;
   padding: 0.5em;
   background: aqua;
@@ -142,6 +146,7 @@ h1::before {
 }
 
 .menu-3 h1 {
+  font-weight: bold;
   position: relative;
   padding: 0.5em;
   background: aqua;
